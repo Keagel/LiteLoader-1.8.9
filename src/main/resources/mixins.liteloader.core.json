@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "minVersion": "0.5.3",
+    "package": "com.mumfrey.liteloader.common.mixin",
+    "refmap": "mixins.liteloader.core.refmap.json",
+    "mixins": [
+        "MixinMinecraftServer",
+        "MixinServerConfigurationManager",
+        "MixinNetHandlerPlayServer",
+        "MixinItemInWorldManager",
+        "MixinC15PacketClientSettings",
+        "MixinS02PacketChat"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

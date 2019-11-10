@@ -1,0 +1,28 @@
+{
+    "required": true,
+    "minVersion": "0.5.3",
+    "package": "com.mumfrey.liteloader.client.mixin",
+    "refmap": "mixins.liteloader.client.refmap.json",
+    "mixins": [
+        "MixinMinecraft",
+        "MixinSession",
+        "MixinEntityRenderer",
+        "MixinRenderManager",
+        "MixinGuiIngame",
+        "MixinEntityPlayerSP",
+        "MixinFramebuffer",
+        "MixinIntegratedServer",
+        "MixinScreenShotHelper",
+        "MixinRealmsMainScreen",
+        "MixinNetHandlerLoginClient",
+        "MixinRegistrySimple",
+        "MixinRegistryNamespaced",
+        "MixinTileEntityRendererDispatcher",
+        "MixinSimpleReloadableResourceManager",
+        "MixinSoundHandler",
+        "MixinGuiTextField"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
