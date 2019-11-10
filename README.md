@@ -31,5 +31,5 @@ You may not redistribute the source code in any form without written permission.
 system. To build the project simply navigate to the project directory in a terminal and execute
 
 ```
-gradlew build
+./gradlew build
 ```
